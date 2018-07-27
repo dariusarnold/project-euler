@@ -58,10 +58,10 @@ if __name__ == '__main__':
     print(change_recursive(200, coins))
 
     """
-    python3 -m timeit -s "from coin_sums import change_iterative, change_recursive; coins = [1, 2, 5, 10, 20, 50, 100, 200]; val= 200" "change_iterative(val, coins)"
+    python3 -m timeit -s "from 031-coin_sums import change_iterative, change_recursive; coins = [1, 2, 5, 10, 20, 50, 100, 200]; val= 200" "change_iterative(val, coins)"
     1000 loops, best of 3: 280 usec per loop
     """
     """
-    python3 -m timeit -s "from coin_sums import change_iterative, change_recursive; coins = (1, 2, 5, 10, 20, 50, 100, 200); val= 200" "change_recursive(val, coins)"
+    python3 -m timeit -s "from 031-coin_sums import change_iterative, change_recursive; coins = (1, 2, 5, 10, 20, 50, 100, 200); val= 200" "change_recursive(val, coins)"
     10000000 loops, best of 3: 0.0946 usec per loop
     """
