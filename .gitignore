@@ -105,4 +105,4 @@ venv.bak/
 
 # CLion Files
 .idea
-cmake-build-debug
+*/cmake-build-*
